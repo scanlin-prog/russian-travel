@@ -1,0 +1,18 @@
+.place__website {
+    font-style: normal;
+    font-weight: normal;
+    grid-row: 1/2;
+    margin: auto 0 0;
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+    .place__website {
+        grid-row: 3/4;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 424px) {
+    .place__website {
+        display: none;
+    }
+}

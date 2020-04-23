@@ -1,0 +1,52 @@
+@import url(./__title/place__title.css);
+@import url(./__image/place__image.css);
+@import url(./__website/place__website.css);
+@import url(./__url-heading/place__url-heading.css);
+@import url(./__link/place__link.css);
+@import url(./__text/place__text.css);
+@import url(./__paragraph/place__paragraph.css);
+
+.place {
+    width: 100%;
+    margin-bottom: 80px;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 46.7% 1fr;
+    grid-column-gap: 4%;
+    grid-row-gap: 48px;
+
+}
+
+.place:last-of-type {
+    margin-bottom: 0;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .place {
+        grid-template-columns: 46.45% 1fr;
+        grid-column-gap: 6.5%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .place {
+        grid-template-columns: 46.5% 1fr;
+        grid-column-gap: 3%;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+    .place {
+        grid-template-columns: 100%;
+        grid-column-gap: 0;
+        grid-row-gap: 32px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 424px) {
+    .place {
+        grid-template-columns: 100%;
+        grid-column-gap: 0;
+        grid-row-gap: 32px;
+    }
+}
