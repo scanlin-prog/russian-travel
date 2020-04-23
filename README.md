@@ -1,4 +1,4 @@
-# Проект 3: [Путешествие по России "title"](https://scanlin-prog.github.io/russian-travel/ "Сайт от Ротаря")
+# Проект 3: [Путешествие по России](https://scanlin-prog.github.io/russian-travel/ "Сайт от Ротаря")
 
 ### О проекте
    
