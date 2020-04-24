@@ -1,0 +1,12 @@
+.header__links {
+    margin: 18px 0 6px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+@media screen and (max-width: 424px) {
+    .header__links {
+        margin: 14px 0 4px;
+    }
+}
